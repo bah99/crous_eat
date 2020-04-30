@@ -190,7 +190,7 @@ class _FoodInfoScreenState extends State<FoodInfoScreen>
                           ),
                           Padding(
                               padding: const EdgeInsets.only(
-                                  top: 30.0, left: 18, right: 18),
+                                  top: 30.0, left: 16, right: 16),
                               child: Column(
                                 mainAxisAlignment:
                                     MainAxisAlignment.spaceBetween,
@@ -226,22 +226,6 @@ class _FoodInfoScreenState extends State<FoodInfoScreen>
                                       );
                                     },
                                   ),
-                                  // ListView(
-                                  //   shrinkWrap: true,
-                                  //   padding: const EdgeInsets.only(top: 20),
-                                  //   children: <Widget>[
-                                  //     // getTimeBoxUI(
-                                  //     //     'I\'m dedicating every day to you'),
-                                  //     // const Text(
-                                  //     //     'I\'m dedicating every day to you'),
-                                  //     const Text(
-                                  //         'Domestic life was never quite my style'),
-                                  //     const Text(
-                                  //         'When you smile, you knock me out, I fall apart'),
-                                  //     const Text(
-                                  //         'And I thought I was so smart'),
-                                  //   ],
-                                  // )
                                 ],
                               )),
                           Expanded(
@@ -254,26 +238,6 @@ class _FoodInfoScreenState extends State<FoodInfoScreen>
                               ),
                             ),
                           ),
-                          // AnimatedOpacity(
-                          //   duration: const Duration(milliseconds: 500),
-                          //   opacity: opacity3,
-                          //   child: Padding(
-                          //     padding: const EdgeInsets.only(
-                          //         left: 16, bottom: 16, right: 16),
-                          //     child: Row(
-                          //       mainAxisAlignment: MainAxisAlignment.center,
-                          //       crossAxisAlignment: CrossAxisAlignment.center,
-                          //       children: <Widget>[
-                          //         const SizedBox(
-                          //           width: 10,
-                          //         ),
-                          //       ],
-                          //     ),
-                          //   ),
-                          // ),
-                          // SizedBox(
-                          //   height: MediaQuery.of(context).padding.bottom,
-                          // )
                         ],
                       ),
                     ),
